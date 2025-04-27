@@ -1,0 +1,94 @@
+/*CSS header*/
+
+
+
+body{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+
+#ContenedorEncabezado{
+	padding: 0px;
+	margin: 30px;
+	
+
+}
+
+
+
+.Encabezado{
+
+	display: grid;
+	grid-template-columns: auto auto 1fr; /* La imagen ocupa su tamaño, el texto ocupa el resto */
+	align-items: center; /* Centra verticalmente */
+	background-color: white;
+	color: white;
+	gap: 20px; /* Espacio entre imagen y texto */
+}
+
+.Encabezado img{
+	width: auto;
+    height: 108px;
+	margin-right: 20px;
+	object-fit: contain; /*asegura que no se deforme */
+}
+
+.EncabezadoBoton{
+
+	display: inline-flex; /* mejor control de alineación interna */
+	align-items: center; 
+	justify-content: center;
+	width: 197px; /* ancho fijo más grande */
+	height: 54px; /* alto fijo */
+	background-color: #FDC13C;
+	text-decoration: none;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+	text-align: center;
+}
+
+.EncabezadoBoton:hover {
+	height: 54px;
+	width: 197px;
+	align-content: right;
+	border-radius: 20px;
+	align-content: center;
+	text-align: center;
+	background-color: #e39c02;
+	text-decoration: none;
+	color: white;
+}
+
+.Cont-Boton{
+	display: flex;
+ 	justify-content: flex-end; 
+  	align-items: center;
+}
+
+.navbar-custom a{
+	color: white;
+}
+
+.navbar-custom {
+
+    background-color: #018DC2; 
+    width: 100%;
+}
+
+.navbar-custom .container-fluid {
+    background-color: transparent;
+
+}
+
+.navbar-custom a:hover{
+	color: black;
+}
+
+.active a{
+	background-color: white;
+	color: black !important;
+}
