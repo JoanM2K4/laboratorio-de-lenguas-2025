@@ -22,6 +22,22 @@
   color: #cccccc; /* Color más claro al pasar el mouse */
 }
 
+#sub-col-der{
+  padding-left: 10%;
+}
+
+#links-1{
+  text-align: right;
+}
+
+#links-2{
+text-align: left;
+}
+
+#iconos{
+  text-align: left;
+}
+
 .social-icon {
   width: 24px;
   height: 24px;
