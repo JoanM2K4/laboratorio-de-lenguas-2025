@@ -24,7 +24,7 @@ button {
 
 /* Clase para aplicar fuente Now */
 .font_now {
-  font-family: 'Now', sans-serif;                                             
+  font-family: 'Now', sans-serif !important;                                             
 }
 
 /* Clase para aplicar fuente Poppins */

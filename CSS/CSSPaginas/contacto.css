@@ -1,0 +1,88 @@
+.breadcrumb {
+    background-color: white  !important;
+}
+
+#saludo .jumbotron{
+    background-color:  #073360;
+}
+
+#saludo h1 {
+    font-size: 3em;
+    color: white;
+}
+
+#saludo h3 {
+    font-weight: normal;
+    color: white;
+}
+
+#informacion .thumbnail {
+    border: none !important;
+}
+
+#informacion .contenedor_icono {
+    background-image: linear-gradient(to bottom, transparent 85%, #cad6e0 0%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    padding-top: 20px;
+    /* Espacio arriba */
+}
+
+#informacion .contenedor_texto {
+    background-color: #cad6e0;
+    padding-top: 5% !important;
+    /* Espacio arriba */
+    padding-left: 15% !important;
+    min-height: 200px;
+
+    border-bottom: 2px;
+    /* Línea en la parte de abajo */
+    border-left: 2px;
+    /* Línea izquierda solo hasta abajo */
+    border-right: 2px;
+    /* Línea derecha solo hasta abajo */
+    border-top: none;
+    /* Sin borde arriba */
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* Estilo para el título del panel */
+#horario .panel .panel-heading {
+    font-size: 16px;
+    /* Tamaño de la fuente del título */
+    color: white;
+    /* Color de texto para el título */
+    background-color: #045ba3;
+}
+
+/* Estilo para los elementos de la lista dentro del panel */
+#horario .panel .list-group-item {
+    border: none;
+    /* Eliminar el borde de los items */
+    padding: 10px;
+    /* Espaciado dentro de cada item */
+    color: #555;
+    /* Color de texto de los items */
+}
+
+/* Estilo para el label de los subtitulos*/
+#horario .label {
+    background-color: #073360;
+     /* Color de fondo de cada label*/
+}
+
+#mapa .panel-heading {
+    font-size: 16px;
+    /* Tamaño de la fuente del título */
+    color: white;
+    /* Color de texto para el título */
+    background-color: #045ba3;
+}
+
+
+
