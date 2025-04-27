@@ -6,6 +6,7 @@
 	<title>Contacto</title>
 	<link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css">
 	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
+	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
 	<link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/contacto.css">
 	<link rel="stylesheet" type="text/css" href="./CSS/fuentes.css">
 </head>
@@ -39,11 +40,10 @@
 	<!-- Bootstrap JavaScript -->
 	<script src="./js/bootstrap.min.js"></script>
 
-	<div id="footer" class="row">
-		<?php
-		include 'Footer.html';  // Incluye el contenido de Footer.html
-		?>
-	</div>
+	<?php
+	include 'Footer.html';  // Incluye el contenido de Footer.html
+	?>
+
 
 
 </body>
