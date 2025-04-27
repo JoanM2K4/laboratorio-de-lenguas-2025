@@ -1,53 +1,56 @@
-/* Estilos para el footer */
+/* Estilos generales para el footer */
 .footer {
   background-color:#073360;
   color: white;
-  padding: 40px 0;
+  padding: 40px 0;/* padinges en lo lados para centrar el contenido del footer */ 
   font-size: 14px;
 }
 
 /* Logo en el footer */
 .logo-footer {
-  width: 120px;
+  width: 120px;   /* tamaño definido del logo de la utp */
 }
 
 /* Estilo general de los links del footer */
 .footer-link {
-  color: white;
-  text-decoration: none;
+  color: white; /* todos los links del footer seran blanco, porque azul no combina */
+  text-decoration: none; /* los links tienen una decoracion que no queremos, asi que se la quitamos */
 }
 
 .footer-link:hover {
-  text-decoration: underline;
-  color: #cccccc; /* Color más claro al pasar el mouse */
+  text-decoration: underline; /*cuando pases el cursor por los links se subrayaran*/
+  color: #cccccc; /* color más claro al pasar el mouse por los links*/
 }
 
+/* Entre las dos sub columnas de links de navegacion hay un pequeño espacio, aqui se define*/
 #sub-col-der{
-  padding-left: 10%;
+  padding-left: 10%; /*espaciado entre las columnas de links */
 }
 
-#links-1{
+/* Las subcolumna izquierda tendra una alineacion de textos a la derecha 
+ Y la subcolumna derecha la tendra la izquierda*/ 
+#links-1{ /* elemento de la sub-col-izq*/
   text-align: right;
 }
 
-#links-2{
+#links-2{ /*elemento de la sub col-der*/
 text-align: left;
 }
 
-#iconos{
+#iconos{ /*elemento de la sub-col-der*/
   text-align: left;
 }
 
+/*definicion del tamaño para los iconos de redes sociales*/
 .social-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  transition: transform 0.3s;
-  fill: white;
+  width: 24px; /*ancho*/
+  height: 24px; /*alto*/
+  margin-right: 10px; /*separacion entre iconos*/
+  transition: transform 0.3s; /*se defina el lapso de tiempo que tendran sus animaciones */
 }
 
-/* Efecto hover */
+/* Efecto hover: animacion al pasar el cursor sobre los iconos */
 .social-icon:hover {
-  transform: scale(1.2);
-  opacity: 0.8;
+  transform: scale(1.2); /*se agrandaran un poco*/
+  opacity: 0.8; /*se veran un poco más transparentes*/
 }
