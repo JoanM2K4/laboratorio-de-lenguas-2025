@@ -1,0 +1,11 @@
+/* ===================================
+   Estilos del contenido principal
+=================================== */
+.contenido {
+  margin-top: 30px; /* Espacio superior */
+}
+
+/* Tarjeta de bienvenida */
+.jumbotron {
+  background-color: #f8f8f8; /* Gris claro */
+  border-radius: 10px; /* Bordes redondeados */
