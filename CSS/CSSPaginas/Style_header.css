@@ -1,0 +1,67 @@
+/*CSS header*/
+
+body{
+	font-family: 'Century Gothic', sans-serif;
+	border-collapse: collapse;
+}
+
+
+#ContenedorEncabezado{
+	padding: 0;
+	marks: 0;
+	border: transparent;
+
+}
+
+.Encabezado{
+	display: grid;
+	grid-template-columns: auto auto 1fr; /* La imagen ocupa su tamaño, el texto ocupa el resto */
+	align-items: center; /* Centra verticalmente */
+	background-color: white;
+	padding: 10px;
+	color: white;
+	gap: 20px; /* Espacio entre imagen y texto */
+	box-shadow: none;
+}
+
+.Encabezado img{
+	width: auto;
+    height: 108px;
+	margin-right: 20px;
+	object-fit: contain; /*asegura que no se deforme */
+}
+
+.EncabezadoBoton{
+	display: inline-flex; /* mejor control de alineación interna */
+	align-items: center; 
+	justify-content: center;
+	width: 197px; /* ancho fijo más grande */
+	height: 54px; /* alto fijo */
+	background-color: #FDC13C;
+	color: white;
+	text-decoration: none;
+	border-radius: 20px;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+	text-align: center;
+}
+
+.EncabezadoBoton:hover {
+	height: 54px;
+	width: 197px;
+	align-content: right;
+	border-radius: 20px;
+	align-content: center;
+	text-align: center;
+	background-color: #e39c02;
+	text-decoration: none;
+	color: white;
+}
+
+.Cont-Boton{
+	display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+
