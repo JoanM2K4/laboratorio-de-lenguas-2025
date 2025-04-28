@@ -2,13 +2,15 @@
 <html lang="es">
 
 <head>
-	<meta charset="utf-8">
-	<title>Contacto</title>
-	<link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css">
-	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
-	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
-	<link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/PaginaDocente.css">
-	<link rel="stylesheet" type="text/css" href="./CSS/fuentes.css">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Docente</title>
+	<link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaDocente.css">
+	<link rel="stylesheet" href="./CSS/CSSPaginas/PaginaAdmin.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
+    <link rel="stylesheet" href="./CSS/fuentes.css">
 </head>
 
 <body>
@@ -25,8 +27,14 @@
 
 	</div><!--Fin contenedor encabezado-->
 
-	<div id="contendor" class="container"><!--Inicia contendor-->
+	
 
+	<div id="contendor" class="container"><!--Inicia contendor-->
+	<div class="col-xs-12">
+      	
+      	<?php include("./Componentes/PaginaDocente/JumbotronDocente.html") ?>
+        
+      </div>
     <?php include("./Componentes/PaginaDocente/InformacionCurso.html") ?><!--Inicia contenido de Informacion del curso-->
     <?php include("./Componentes/PaginaDocente/ListaCurso.html") ?> <!--Inicia contenido de la lista del curso-->
 		
