@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
     <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaAdmin.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
     <link rel="stylesheet" href="./CSS/fuentes.css">
 </head>
 <body>
@@ -37,6 +38,7 @@
     </div><!-- Fin fila contenido -->
   </div><!-- Fin contenido principal -->
 
+  <?php include("Footer.html") ?>
 
 </body>
 </html>
