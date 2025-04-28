@@ -1,87 +1,76 @@
-.breadcrumb {
-    background-color: white  !important;
+/*==== Estilos por componente ==== */
+
+/* Estilo para "breadcrumb" (este componente de muestra donde estas, ejemplo: "inicio/contacto" )*/
+.breadcrumb { 
+    background-color: white  !important; /* se cambia el color de fondo de las migajas de pan*/
 }
 
+
+/*Estilo para "saludo" (cuadro grande con un titulo y una frase)*/
 #saludo .jumbotron{
-    background-color:  #073360;
+    background-color:  #073360; /*Se cambia el fondo a un azul oscuro*/ 
 }
-
-#saludo h1 {
-    font-size: 3em;
-    color: white;
+#saludo h1 { 
+    font-size: 3em; /*se defina el tamaño del título*/
+    color: white; /*se define el color del titulo*/
 }
-
 #saludo h3 {
-    font-weight: normal;
-    color: white;
+    font-weight: normal; /*la frase bajo el título, al ser un h3, se ve en negrita por defecto, asi que se quita*/
+    color: white; /*se define el color de la frase bajo el título*/
 }
 
+
+/* Estilo para "informacion" (cartas con iconos y informacion de contacto)*/
 #informacion .thumbnail {
-    border: none !important;
+    border: none !important; /*se quita el borde de las cartas*/
 }
-
 #informacion .contenedor_icono {
+    /*El contenedor del icono  se pinta un 15% en la parte de abajo, el otro 85% superior es transparente, se vera como si el icono flotara sobre la carta  */
     background-image: linear-gradient(to bottom, transparent 85%, #cad6e0 0%);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-repeat: no-repeat; /*si una imagen es muy pequeña se repite, esto evita eso*/
+    background-size: 100% 100%; /* la imagen de fondo se estira para cubrir todo el ancho y todo el alto del contenedor*/
 
-    display: flex;
-    justify-content: center;
-    /* Centra horizontalmente */
-    padding-top: 20px;
-    /* Espacio arriba */
+    display: flex; /*sirve para alinear elementos*/
+    justify-content: center;    /* Centra el icono de las cartas al centro, horizontalmente */
+    padding-top: 20px;     /* añade un poco de espacio en la parte superior del icono */ 
 }
-
 #informacion .contenedor_texto {
-    background-color: #cad6e0;
-    padding-top: 5% !important;
-    /* Espacio arriba */
-    padding-left: 15% !important;
-    min-height: 200px;
+    background-color: #cad6e0;     /* el contenedor donde estara el texto de las cartas será blanco */
+    padding-top: 5% !important;     /* añade un poco de espacio arriba del texto */
+    padding-left: 15% !important;   /* añade espacio a la izquierda del texto para acercarlo un poco al centro */
+    min-height: 200px;              /*  altura minima del contenedor del texto */
 
-    border-bottom: 2px;
-    /* Línea en la parte de abajo */
-    border-left: 2px;
-    /* Línea izquierda solo hasta abajo */
-    border-right: 2px;
-    /* Línea derecha solo hasta abajo */
-    border-top: none;
-    /* Sin borde arriba */
-    border-radius: 0 0 10px 10px;
+    /* defincion de los bordes redondeados debajo de las cartas */
+    border-bottom: 2px;    /* Línea en la parte de abajo */
+    border-left: 2px;    /* Línea izquierda solo hasta abajo */
+    border-right: 2px;    /* Línea derecha solo hasta abajo */
+    border-top: none;     /* Sin borde arriba */
+    border-radius: 0 0 10px 10px;     /* define que tan redondos son los bordes*/
+
 }
 
 
-/* Estilo para el título del panel */
+/* Estilo el "horario" (panel con horarios)*/
 #horario .panel .panel-heading {
-    font-size: 16px;
-    /* Tamaño de la fuente del título */
-    color: white;
-    /* Color de texto para el título */
-    background-color: #045ba3;
+    font-size: 16px;    /* Tamaño de la fuente del título */
+    color: white;     /* Color de texto para el título */
+    background-color: #045ba3;     /* Color de fondo para el título */
+}
+#horario .panel .list-group-item { /* Estilo para cada horario */
+    border: none;     /* Eliminar el borde de los horarios */
+    padding: 10px;     /* centrado del texto de cada horario */
+    color: #555;     /* Color de texto de los horarios */
 }
 
-/* Estilo para los elementos de la lista dentro del panel */
-#horario .panel .list-group-item {
-    border: none;
-    /* Eliminar el borde de los items */
-    padding: 10px;
-    /* Espaciado dentro de cada item */
-    color: #555;
-    /* Color de texto de los items */
+#horario .label {  /* Estilo para los labels (indica la modalidad de los horarios)*/
+    background-color: #073360;      /* Color de fondo de cada label*/
 }
 
-/* Estilo para el label de los subtitulos*/
-#horario .label {
-    background-color: #073360;
-     /* Color de fondo de cada label*/
-}
-
+/* Estilo el "mapa" (panel con una mapa embebido)*/
 #mapa .panel-heading {
-    font-size: 16px;
-    /* Tamaño de la fuente del título */
-    color: white;
-    /* Color de texto para el título */
-    background-color: #045ba3;
+    font-size: 16px;     /* Tamaño de la fuente del título */
+    color: white;    /* Color de texto para el título */
+    background-color: #045ba3; /* Color de fondo para el título */
 }
 
 

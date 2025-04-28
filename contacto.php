@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+	<html lang="es"> <!-- la pagina estara en español --> 
 
 <head>
 	<meta charset="utf-8">
-	<title>Contacto</title>
-	<link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css">
-	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
-	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
-	<link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/contacto.css">
-	<link rel="stylesheet" type="text/css" href="./CSS/fuentes.css">
+	<title>Contacto</title> <!-- titulo de la pagina -->
+	<link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css"> <!-- estilos de componentes Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/contacto.css"> <!-- estilo de este documento -->
+	<link rel="stylesheet" type="text/css" href="./CSS/fuentes.css"> <!-- estilo que aplica la fuentes tipograficas del sitio -->
+	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css"> <!-- estilo del Encabezado -->
+	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css"> <!-- estilo del Pie de pagina -->
 </head>
 
 <body>
@@ -25,16 +25,18 @@
 
 	</div><!--Fin contenedor encabezado-->
 
-	<div id="contendor" class="container"><!--Inicia contendor-->
+	<div id="componentes" class="container"><!--Inicia contendor de componentes-->
 
-		<?php include("Componentes\contacto\breadcrumb.html") ?> <!-- migas de pan, muestran donde estas-->
-		<?php include("Componentes\contacto\saludo.html") ?> <!-- jumbotron -->
-		<?php include("Componentes\contacto\informacion.html") ?> <!-- cards con informaccion de ontacto -->
+		<!-- añadicion de componentes -->
+		<?php include("Componentes\contacto\breadcrumb.html") ?> <!-- migas de pan (muestran donde estas)-->
+		<?php include("Componentes\contacto\saludo.html") ?> <!--  jumbtron (cuadro grande con un titulo y frase)-->
+		<?php include("Componentes\contacto\informacion.html") ?> <!-- cards con informaccion de contacto -->
 		<?php include("Componentes\contacto\horario.html") ?> <!-- horarios de clases -->
 		<?php include("Componentes\contacto\mapa.html") ?> <!-- ubicacion del centro de lenguas en un mapa -->
 
 	</div><!--termina contendor-->
 
+	<!-- ==== Añade scripts de bootstrap ==== -->
 	<!--query-->
 	<script src="./js/jquery.js"></script>
 	<!-- Bootstrap JavaScript -->

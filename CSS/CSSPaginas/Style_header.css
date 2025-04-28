@@ -23,7 +23,6 @@ body{
 	grid-template-columns: auto auto 1fr; /* La imagen ocupa su tamaño, el texto ocupa el resto */
 	align-items: center; /* Centra verticalmente */
 	background-color: white;
-	color: white;
 	gap: 20px; /* Espacio entre imagen y texto */
 }
 
