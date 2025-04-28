@@ -1,0 +1,117 @@
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Fila para el encabezado */
+.row {
+    margin-bottom: 30px;
+}
+
+/* Título de la lista de estudiantes */
+h3.text-primary {
+    color: #000;
+}
+
+/* Botón de "Añadir Nota" */
+.btn-info {
+    background-color: #018DC2;
+    border-color: #018DC2;
+}
+
+/* Estilo de la tabla */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-striped tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Fila de encabezado */
+thead.tr.info {
+    background-color: #d9edf7;
+    color: #018DC2;
+}
+
+/* Botón de "Guardar Cambios" */
+.text-right .btn-success {
+    background-color: #018DC2;
+    border-color: #018DC2;
+}
+
+/* Alineación de los botones a la derecha */
+.text-right {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Fila para el encabezado */
+.row {
+    margin-bottom: 30px;
+}
+
+/* Título del curso en negro */
+h2.text-dark {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Fondo del contenedor de la información */
+.p-4 {
+    padding: 1.5rem;
+}
+
+.bg-info {
+    background-color: #d1ecf1 !important;
+}
+
+.bg-opacity-25 {
+    opacity: 0.25;
+}
+
+/* Sombra suave */
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Filas y columnas de la tabla */
+.row.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.col-md-6 {
+    margin-bottom: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+/* Estilo de los títulos en negrita */
+strong {
+    font-weight: bold;
+}
