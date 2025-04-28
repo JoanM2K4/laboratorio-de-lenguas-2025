@@ -73,17 +73,6 @@ thead.tr.info {
     margin-top: 20px;
 }
 
-/* Contenedor principal */
-.container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-/* Fila para el encabezado */
-.row {
-    margin-bottom: 30px;
-}
-
 /* Título del curso en negro */
 h2.text-dark {
     color: #000;

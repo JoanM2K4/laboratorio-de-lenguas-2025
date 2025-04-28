@@ -21,21 +21,16 @@
 
 	</div><!--Fin contenedor encabezado-->
 
-	<div id="ContenedorMenu" class="container-fluid"><!--Inicio contendor encabezado-->
+	<div id="ContenedorMenu" class="container-fluid"><!--Inicio contendor de la Navegación-->
 
 		<?php include("./Componentes/PaginaDocente/NavDocente.html") ?><!--menu-->
 
-	</div><!--Fin contenedor encabezado-->
+	</div><!--Fin contenedor de Navegación-->
 
-	
-
-	<div id="contendor" class="container"><!--Inicia contendor-->
-	<div class="col-xs-12">
+	<div id="contendor" class="container"> <!--Inicia contendor Información-->
       	
-      	<?php include("./Componentes/PaginaDocente/JumbotronDocente.html") ?>
-        
-      </div>
-    <?php include("./Componentes/PaginaDocente/InformacionCurso.html") ?><!--Inicia contenido de Informacion del curso-->
+	<?php include("./Componentes/PaginaDocente/JumbotronDocente.html") ?>
+    <?php include("./Componentes/PaginaDocente/InformacionCurso.html") ?><!--Inicia contenido de Información del curso-->
     <?php include("./Componentes/PaginaDocente/ListaCurso.html") ?> <!--Inicia contenido de la lista del curso-->
 		
 	</div><!--termina contendor-->
@@ -43,8 +38,6 @@
 	<?php
 	include 'Footer.html';  // Incluye el contenido de Footer.html
 	?>
-
-
 
 </body>
 
