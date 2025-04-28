@@ -1,0 +1,53 @@
+<!-- Carrusel de imágenes principales -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12" style="padding: 0;">
+
+            <!-- Estructura principal del carrusel Bootstrap -->
+            <div id="carousel-id" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicadores del carrusel (pequeños círculos de navegación) -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-id" data-slide-to="1"></li>
+                    <li data-target="#carousel-id" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Contenedor de las diapositivas -->
+                <div class="carousel-inner">
+
+                    <!-- Primera imagen activa -->
+                    <div class="item active">
+                        <img src="./images/Carrusel/imagen1.jpg" alt="Primera imagen"
+                            style="width:100%; height:400px; object-fit:cover;">
+                    </div>
+
+                    <!-- Segunda imagen -->
+                    <div class="item">
+                        <img src="./images/Carrusel/imagen.jpg" alt="Segunda imagen"
+                            style="width:100%; height:400px; object-fit:cover;">
+                    </div>
+
+                    <!-- Tercera imagen -->
+                    <div class="item">
+                        <img src="./images/Carrusel/imagen3.jpg" alt="Tercera imagen"
+                            style="width:100%; height:400px; object-fit:cover;">
+                    </div>
+                </div>
+
+                <!-- Controles para cambiar de imagen manualmente -->
+                <a class="left carousel-control" href="#carousel-id" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <a class="right carousel-control" href="#carousel-id" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+
+            </div> <!-- Fin del carrusel -->
+
+        </div> <!-- Fin de la columna -->
+    </div> <!-- Fin de la fila -->
+</div> <!-- Fin del contenedor -->
