@@ -33,17 +33,11 @@
 
     </div><!--termina contendor-->
 
-
-
     <!--query-->
     <script src="./js/jquery.js"></script>
     <!-- Bootstrap JavaScript -->
     <script src="./js/bootstrap.min.js"></script>
-
-    <?php
-    include 'Footer.html';  // Incluye el contenido de Footer.html
-    ?>
+    <?php include 'Footer.html';  // Incluye el contenido de Footer.html?>
 
 </body>
-
 </html>
