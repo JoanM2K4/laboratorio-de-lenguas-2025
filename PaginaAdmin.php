@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para diseño responsive -->
     
     <title>Administrador</title> <!-- Título de la página -->
- 
+
     <!-- Inclusión de archivos CSS -->
     <link rel="stylesheet" href="./CSS/bootstrap.min.css"> <!-- Bootstrap CSS -->
-    
-    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css?v=1.0"> <!-- Estilos personalizados del encabezado -->
-    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css?v=1.0"> <!-- Estilos personalizados del pie de página -->
-    <link rel="stylesheet" href="./CSS/fuentes.css?v=1.0"> <!-- Estilos de fuentes -->
-    <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaAdmin.css?v=1.0"> <!-- Estilos específicos para la página de administrador -->
-
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css"> <!-- Estilos personalizados del encabezado -->
+    <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaAdmin.css"> <!-- Estilos específicos para la página de administrador -->
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css"> <!-- Estilos personalizados del pie de página -->
+    <link rel="stylesheet" href="./CSS/fuentes.css"> <!-- Estilos de fuentes -->
 </head>
 
 <body>
+
     <!-- Inicio del contenedor del encabezado -->
     <div id="ContenedorEncabezado" class="container-fluid">
         <!-- Inclusión del encabezado desde archivo externo -->
