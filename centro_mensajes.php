@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
     <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
     <link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/contacto.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaAdminMensajes.css">
     <link rel="stylesheet" type="text/css" href="./CSS/fuentes.css">
 </head>
 
