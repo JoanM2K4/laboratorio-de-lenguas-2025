@@ -5,23 +5,31 @@
     <meta charset="UTF-8">
     <title>Centro de mensajes</title>
     <link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css">
-    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
-    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
     <link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/contacto.css">
     <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaAdminMensajes.css">
     <link rel="stylesheet" type="text/css" href="./CSS/fuentes.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
+
+
+        <!-- Inclusión de archivos CSS -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css"> <!-- Estilos personalizados del encabezado -->
+    <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaAdmin.css"> <!-- Estilos específicos para la página de administrador -->
+    <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css"> <!-- Estilos personalizados del pie de página -->
+    <link rel="stylesheet" href="./CSS/fuentes.css"> <!-- Estilos de fuentes -->
 </head>
 
 <body>
     <div id="ContenedorEncabezado" class="container-fluid"><!--Inicio contendor encabezado-->
 
-        <?php include("Header.html") ?><!--Encabezado-->
+    <?php include("Componentes/PaginaAdmin/HeaderAdmin.html"); ?><!--encabezado-->
 
     </div><!--Fin contenedor encabezado-->
 
     <div id="ContenedorMenu" class="container-fluid"><!--Inicio contendor encabezado-->
 
-        <?php include("./Componentes/PaginaInicio/NavInicio.html") ?><!--menu-->
+        <?php include("./Componentes/PaginaAdmin/NavAdmin.html") ?><!--menu-->
 
     </div><!--Fin contenedor encabezado-->
 
