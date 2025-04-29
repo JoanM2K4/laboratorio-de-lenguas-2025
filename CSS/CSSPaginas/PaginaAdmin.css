@@ -1,6 +1,4 @@
-/* ===================================
-   Estilos del contenido principal
-=================================== */
+
 .contenido {
   margin-top: 30px; /* Espacio superior */
 }
@@ -15,15 +13,17 @@
 .user-session {
     display: flex; /* Flexbox para poder alinear su contenido */
     justify-content: flex-end; /* Mueve todo el contenido al extremo derecho */
-    padding: 10px 20px; /* Espaciado interno: puedes ajustar el derecho si quieres separarlo más */
+    
 }
 
 .user-container {
+    height: 54px !important; 
+    width: 197px !important;
     display: flex; /* Organiza el icono y el texto uno al lado del otro */
     align-items: center; /* Centra verticalmente */
     border: 2px solid #ccc; /* Borde del contorno */
     border-radius: 10px; /* Bordes redondeados */
-    padding: 10px 15px; /* Espacio interno */
+    padding: 10px 15px; /*Espacio interno */
     background-color: #f9f9f9; /* Color de fondo */
     font-family: Arial, sans-serif;
 }
@@ -46,7 +46,6 @@
 }
 
 .user-name {
-    color: black;
     font-weight: bold;
     margin: 0;
 }

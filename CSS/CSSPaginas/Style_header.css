@@ -88,3 +88,10 @@ body{
 	color: black;
 }
 
+.navbar-nav .dropdown-toggle:focus,       /* Cuando el botón tiene foco (por ejemplo, al navegar con teclado) */
+.navbar-nav .dropdown-toggle:hover,       /* Cuando el mouse pasa sobre el botón */
+.navbar-nav .dropdown-toggle:active,      /* Cuando el botón es presionado */
+.navbar-nav .show > .dropdown-toggle {    /* Cuando el menú desplegable está abierto (usando clase .show de Bootstrap) */
+  color: black !important;                /* Fuerza el color del texto a negro en todos los estados interactivos */
+  background-color: #f8f8f8 !important;   /* Establece un fondo gris claro cuando está activo o abierto */
+}
