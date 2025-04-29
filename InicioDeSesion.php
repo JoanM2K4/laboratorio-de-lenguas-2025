@@ -13,9 +13,9 @@
     <!-- Enlace a las hojas de estilo personalizadas -->
     <link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css">
     <link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css">
-    <link rel="stylesheet" href="./CSS/CSSPaginas/index.css">
+    <link rel="stylesheet" href="./CSS/CSSPaginas/PaginaInicioDeSesion.css">
     <link rel="stylesheet" href="./CSS/fuentes.css">
-    
+
 </head>
 
 <body>
@@ -25,13 +25,24 @@
         <?php include("Header.html"); ?>
     </div>
 
-    <!-- Menú de navegación principal -->
-    <?php include("./Componentes/index/Menu.html") ?>
-    <!-- Carrusel de imágenes destacadas -->
-    <?php include("./Componentes/index/Carrusel.html") ?>
 
-    <!-- Sección principal de información sobre el centro -->
-    <?php include("./Componentes/index/Informacion.html") ?>
+    <div class="container">
+
+        <div class="row">
+
+            <h2><a href="PaginaAdmin.php">Pagina de Administrador
+                    <span class="label">en progreso</span>
+                </a></h2>
+        </div>
+
+        <div class="row">
+            <h2> <a href="PaginaDocente.php">Pagina de Docente
+                    <span class="label">en progreso</span>
+                </a></h2>
+        </div>
+
+
+    </div>
 
     <!-- Inclusión de librerías JavaScript necesarias -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

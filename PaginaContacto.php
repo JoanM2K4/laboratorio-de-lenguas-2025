@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>Contacto</title> <!-- titulo de la pagina -->
 	<link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css"> <!-- estilos de componentes Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/contacto.css"> <!-- estilo de este documento -->
+	<link rel="stylesheet" type="text/css" href="./CSS/CSSPaginas/PaginaContacto.css"> <!-- estilo de este documento -->
 	<link rel="stylesheet" type="text/css" href="./CSS/fuentes.css"> <!-- estilo que aplica la fuentes tipograficas del sitio -->
 	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_header.css"> <!-- estilo del Encabezado -->
 	<link rel="stylesheet" href="./CSS/CSSPaginas/Style_footer.css"> <!-- estilo del Pie de pagina -->
