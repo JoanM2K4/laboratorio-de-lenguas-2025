@@ -23,11 +23,13 @@
     <!-- Encabezado principal del sitio -->
     <div id="ContenedorEncabezado" class="container-fluid">
         <?php include("Header.html"); ?>
+        <?php include("Componentes/PaginaInicio/NavInicio.html"); ?>
+    
     </div>
 
 
-    <div class="container">
-
+<div class="container">
+    
         <div class="row">
 
             <h2><a href="PaginaAdmin.php">Pagina de Administrador
