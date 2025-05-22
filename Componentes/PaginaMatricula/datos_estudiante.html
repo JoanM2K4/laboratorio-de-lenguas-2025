@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Estudiante</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/estilos_custom/estudiante_estilo.css">
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        
+        <!-- Breadcrumb -->
+        <ol class="breadcrumb">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Perfil de estudiante</a></li>
+        </ol>
+
+        <h1 class="titulo">Datos del estudiante</h1>
+
+        <div class="container-interfaz">
+            
+            <div class="container-datos">
+                
+                <div class="container-paneles">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item" id="linkPers">
+                            <a class="linkPers" href="#" id="linkPers">Datos Personales</a>
+                        </li>
+                        <li class="nav-item" id="linkAdm">
+                            <a class="linkAdm" href="#" id="linkAdm">Datos Administrativos</a>
+                        </li>
+                    </ul>
+                </div><!-- fin container-paneles -->
+
+                <div class="container-form" id="formPers">
+                    <!-- Nombre -->
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label"><strong>Nombre:</strong></label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Samuel">
+                    </div>
+
+                    <!-- Apellido -->
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label"><strong>Apellido:</strong></label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Rodriguez">
+                    </div>
+
+                    <!-- Número de identificación -->
+                    <div class="mb-3">
+                        <label for="numeroIdentificacion" class="form-label"><strong>Número de
+                                identificación:</strong></label>
+                        <input type="text" class="form-control" id="numeroIdentificacion"
+                            placeholder="2-759-9976">
+                    </div>
+
+                    <!-- Tipo de identificación -->
+                    <div class="mb-4">
+                        <label class="form-label"><strong>Tipo de Identificación:</strong></label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="tipoIdentificacion" id="cedula"
+                                value="cedula">
+                            <label class="form-check-label" for="cedula">Cédula (Panamá)</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="tipoIdentificacion"
+                                id="pasaporte" value="pasaporte">
+                            <label class="form-check-label" for="pasaporte">Pasaporte</label>
+                        </div>
+                    </div>
+
+                    <!-- Correo personal -->
+                    <div class="mb-3">
+                        <label for="correoPersonal" class="form-label"><strong>Correo Personal:</strong></label>
+                        <input type="email" class="form-control" id="correoPersonal"
+                            placeholder="Sama@gmail.com">
+                    </div>
+
+                    <!-- Teléfono -->
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label"><strong>Teléfono:</strong></label>
+                        <input type="text" class="form-control" id="telefono" placeholder="6649-2474">
+                    </div>
+
+                    <!-- Correo UTP -->
+                    <div class="mb-3">
+                        <label for="correoUTP" class="form-label"><strong>Correo UTP:</strong></label>
+                        <input type="email" class="form-control" id="correoUTP"
+                            placeholder="samuel.rodriguez@utp.ac.pa">
+                    </div>
+
+                    <!-- Boton-->
+                     <div class="mb-3 boton">
+                        <br>
+                        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                     </div>
+                    
+                </div><!-- fin container-form pers -->
+
+                
+                <div class="container-form" id="formAdm">
+                    <p>HOLA xd</p>
+                </div> <!-- fin container-form amd-->
+
+
+            </div> <!-- fin container datos -->
+
+            <div class="container-imagen">
+                <img src="/images/imagenes/estudiante2.png" alt="Imagen de estudiante" class="img-fluid rounded-circle"
+                            style="max-width: 250px; height: auto;">
+            </div>
+        
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/JS/scrips_custom/scrip_datosEst.js"></script>
+
+</body>
+
+</html>

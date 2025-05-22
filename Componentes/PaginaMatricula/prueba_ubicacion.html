@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Ubicación</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/CSS/estilos_custom/estilos.css"> <!-- Custom CSS -->
+</head>
+
+<body>
+
+    <div class="container mt-5">
+
+        <ol class="breadcrumb">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Prueba de Ubicación</a></li>
+        </ol>
+
+        <p class= "texto">
+            Datos necesarios para la solicitud de prueba de Ubicación para estudiantes
+            del crentro especializado en lenguas.
+        </p>
+
+        <h2 class="texto2">La prueba de Ubicación tiene un costo de B/. 10.00.</h2>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <p>Las credenciales de la prueba serán enviadas a su correo electrónico
+                    entre 24 a 48 horas, recuerde verificar la bandeja principal,
+                    no deseado o spam. 
+                    <br>
+                    <br>
+                    Un participante solo se podrá incribir, en
+                    una prueba de ubicación, una vez por periodo de clase.
+                </p>
+            </div>
+        </div>
+
+        <h4><strong>Datos generales</strong></h4>
+
+        <form>
+            <!-- Tipo de identificación -->
+            <div class="mb-3">
+                <label class="form-label"><strong><p class="asterisco">*</p> Tipo de identificación:</strong></label>
+                
+                <div class="form-radions">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="tipoIdentificacion" id="cedula"
+                            value="cedula">
+                        <label class="form-check-label" for="cedula">Cédula (Panamá)</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="tipoIdentificacion" id="pasaporte"
+                            value="pasaporte">
+                        <label class="form-check-label" for="pasaporte">Pasaporte</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Número de identificación -->
+            <div class="mb-3">
+                <label for="numeroIdentificacion" class="form-label"><strong><p class="asterisco">*</p> Número de
+                        identificación:</strong></label>
+                <input type="text" class="form-control" id="numeroIdentificacion"
+                    placeholder="Ingrese su número de identificación">
+            </div>
+
+            <!-- Nombre y Apellido -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label"><strong><p class="asterisco">*</p> Nombre:</strong></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label"><strong><p class="asterisco">*</p> Apellido:</strong></label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                </div>
+            </div>
+
+            <!-- Correos -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="correoPersonal" class="form-label"><strong><p class="asterisco">*</p> Correo personal:</strong></label>
+                    <input type="email" class="form-control" id="correoPersonal" placeholder="Ej: uno@dos.com">
+                </div>
+                <div class="col-md-6">
+                    <label for="correoUTP" class="form-label">Correo UTP:</label>
+                    <input type="email" class="form-control" id="correoUTP" placeholder="Ej: uno@utp.ac.pa">
+                </div>
+            </div>
+
+            <!-- Teléfono -->
+            <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono:</label>
+                <input type="text" class="form-control" id="telefono"
+                    placeholder="Ej: Residencial: 333-4444, o Ej: Móvil: 6666-7777">
+            </div>
+
+            <!-- Adjuntar comprobante -->
+            <div class="mb-3">
+                <label for="comprobantePago" class="form-label"><strong><p class="asterisco">*</p> Adjuntar comprobante de pago:</strong></label>
+                <input type="file" class="form-control" id="comprobantePago">
+            </div>
+
+            <!-- Botón de envío -->
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-send"></i> Enviar Solicitud
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+.breadcrumb {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-left: 0;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin: 30px 0;
+}
+
+.container-interfaz {
+    width: 90%;
+    max-width: 1200px;
+    /*margin: auto;*/
+
+    /*CSS grid*/
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px; /*espaciado*/
+}
+
+/*contenedor paneles*/
+.container-paneles {
+    width: auto;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.container-datos ul {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+}
+
+.nav-item a{
+    color: #2d2d2d;
+    background-color: #018DC2;
+}
+
+.nav-item a:hover{
+    color: #313131;
+    background-color: #018DC2 !important;
+}
+
+.nav-item a:active {
+    color: #7d7d7d;
+    background-color: #018DC2 !important;
+}
+
+.nav-item a:focus {
+    color: #ffffff;
+    background-color: #018DC2 !important;
+}
+
+
+
+/*contenedor datos*/
+.container-datos {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #dadada;
+}
+
+.container-datos #formAdm{
+    display: none !important;
+}
+/*campos editText*/
+.mb-3 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px 0;
+}
+/*campos radioButtons*/
+.mb-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 0;
+}
+/*bottoon*/
+.mb-3 .boton {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    background-color: #313131;
+    margin: 10px 0;
+}
+/*contenedor imagen*/
+.container-imagen {
+    padding-top: 10px;
+    background-color: #018DC2;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(208, 208, 208);
+
+}
+
+.container-imagen img {
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
